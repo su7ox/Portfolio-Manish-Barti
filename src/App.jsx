@@ -5,7 +5,7 @@ import resume from "./assets/Resume_manishbarti.pdf";
 const data = {
   name: "Manish Barti",
   title: "CS Engineering Student",
-  bio: "B.Tech CSE student at Graphic Era Deemed University. I build full-stack web applications with FastAPI, React, PostgreSQL, and AI technologies. Passionate about software engineering, cloud computing and solving real-world problems. Currently seeking software development internship/Job opportunities.",
+  bio: "B.Tech CSE student at Graphic Era Deemed University. I build full-stack web applications with FastAPI, React, PostgreSQL, and AI technologies. Passionate about software engineering, cloud computing and solving real-world problems. .",
   email: "bartimanish36@gmail.com",
   phone: "+91 7456821509",
   location: "Dehradun, Uttarakhand",
@@ -126,6 +126,24 @@ const data = {
         "redis",
       ],
       link: "https://github.com/su7ox/GiG-Insurance",
+    },
+    {
+      name: "APIGate",
+      description:
+        "Distributed API Gateway with reverse-proxy routing, Redis-backed sliding-window rate limiting, and JWT authentication middleware across multiple containerized backend services. Implements a circuit breaker pattern to prevent cascade failures, with real-time observability via Prometheus and Grafana dashboards tracking latency, throughput, and error rates.",
+      tech: [
+        "Python",
+        "FastAPI",
+        "Redis",
+        "Docker",
+        "Prometheus",
+        "Grafana",
+        "REST APIs",
+        "JWT Auth",
+        "Microservices",
+        "Docker Compose",
+      ],
+      link: "https://github.com/su7ox/APIgateway",
     },
   ],
   certifications: [
@@ -424,7 +442,7 @@ export default function App() {
               }}
             />
             <span style={{ fontSize: 13, color: t.sub }}>
-              Open to internships
+              Exploring Software Development opportunities.
             </span>
           </div>
           <h1
@@ -639,7 +657,7 @@ export default function App() {
         <section id="contact">
           <h2>Contact</h2>
           <p style={{ marginBottom: 20 }}>
-            I'm actively looking for internship opportunities. Feel free to
+            Building projects while exploring software development opportunities. Feel free to
             reach out!
           </p>
           <div

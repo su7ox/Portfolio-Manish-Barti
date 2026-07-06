@@ -37,11 +37,10 @@ const data = {
     "Express.js",
     "REST APIs",
     "Async Programming",
-    "Redis",
+    
     "Caching",
     "celery",
     "kafka",
-    "RabbitMQ",
     "Message Queues",
     "WebSockets",
     "Socket.io",
@@ -51,6 +50,7 @@ const data = {
     "MySQL",
     "ChromaDB",
     "MongoDB",
+    "Redis",
 
     // AI / Machine Learning
     "Machine Learning",
@@ -73,6 +73,7 @@ const data = {
     "AWS S3",
     "Docker",
     "Linux",
+    "Azure",
 
     // Tools
     "Git",
@@ -123,7 +124,7 @@ const data = {
         "Scikit-learn",
         "Docker",
         "REST APIs",
-        "redis",
+        "Redis",
       ],
       link: "https://github.com/su7ox/GiG-Insurance",
     },
